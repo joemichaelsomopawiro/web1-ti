@@ -25,11 +25,63 @@
             a:active {
                 color: deeppink;
             }
+
+            a.green {
+                background-color:green;
+                border-color: green;
+            }
+            a.blue {
+                background-color: blue;
+                border-color: blue;
+            }
+
+            ul.web {
+                list-style-type: square;
+                list-style-position: outside;
+                background-color: pink;
+                border: 2px solid black;
+            }
+            ul li {
+                background-color: greenyellow;
+            }
+            ul.nav li a {
+                display: block;
+                color: black;
+                background-color: #f1f1f1;
+                border-radius: 0;
+                border: none;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+            /* Change the link color on over */
+            ul.nav li a:hover {
+                background-color: #555;
+                color: white;
+            }
+
         </style>
     </head>
     <body>
         <h1>Learn CSS part 4</h1>
 
         <a href="https://google.com">Link to Google</a>
+        <a class="green" href="https://fti.unai.edu">Link to FTI UNAI</a>
+        <a class="blue" href="https://unai.edu">Link to UNAI</a>
+
+        <p>My favourite foods: </p>
+        <ul class="web">
+            <li>Fried Rice</li>
+            <li>Rendang</li>
+            <li>Fried Noodles</li>
+        </ul>
+
+        <ul class="nav">
+            <li><a href="hello.html">Home</a></li>
+            <li><a href="https://fti.unai.edu">FTI UNAI</a></li>
+            <li><a href="https://unai.edu">UNAI</a></li>
+            <li><a href="tables.html">tables</a></li>
+        </ul>
+       
     </body>
 </html>
